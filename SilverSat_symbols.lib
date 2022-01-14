@@ -50,5 +50,5 @@ X VCC ~ -550 100 100 R 50 50 1 1 I
 X VIN ~ -550 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
-#
+#  
 #End Library
