@@ -1,6 +1,29 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# BD2268G-MGTR-SamacSys_Parts2
+#
+DEF BD2268G-MGTR-SamacSys_Parts2 IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "BD2268G-MGTR-SamacSys_Parts2" 850 200 50 H V L CNN
+F2 "SOT95P280X125-5N" 850 100 50 H I L CNN
+F3 "https://www.mouser.tw/datasheet/2/348/bd2268g-m-e-1874307.pdf" 850 0 50 H I L CNN
+F4 "Power Switch ICs - Power Distribution LOW ON-RESISTANCE N-CHANNEL" 850 -100 50 H I L CNN "Description"
+F5 "1.25" 850 -200 50 H I L CNN "Height"
+F6 "ROHM Semiconductor" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "BD2268G-MGTR" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "755-BD2268G-MGTR" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/BD2268G-MGTR?qs=WHeKGGBt0W9iXCIsqOoAOg%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+X IN 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X EN 3 0 -200 200 R 50 50 0 0 P
+X ~OC 4 1000 0 200 L 50 50 0 0 P
+X OUT 5 1000 -100 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # VSOURCE
 #
 DEF VSOURCE V 0 40 Y Y 1 F N
@@ -50,5 +73,5 @@ X VCC ~ -550 100 100 R 50 50 1 1 I
 X VIN ~ -550 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
-#  
+#
 #End Library
