@@ -1,2 +1,2 @@
 # kicad_library
-KiCAD library of SilverSat-specific parts
+KiCAD library of SilverSat-specific parts.
