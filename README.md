@@ -2,11 +2,11 @@
 
 # Shared libraries for SilverSat-specific parts
 
-This repository contains shared libraries for custom Ki-CAD parts developed for the SilverSat PC board designs. There are two libraries in this repository:
+This repository contains shared libraries for custom KiCAD parts developed for the SilverSat PC board designs. There are two libraries in this repository:
   SilverSat_symbols.lib :  custom schematic symbols used while drawing schematics
   SilverSat_footprints.pretty : custom footprints used in PCB layouts.
   
-  Note that SilverSat_sybmols.lib is a single file containing all of the custom symbols.  SilverSat_footprints.pretty is a folder, and each custom footprint is a separate file.
+  Note that SilverSat_symbols.lib is a single file containing all of the custom symbols.  SilverSat_footprints.pretty is a folder, and each custom footprint is a separate file in this folder.
   
   ## Installing the SilverSat Libraries
   1) If you haven't already, set up a location on your computer for KiCAD libraries in your Documents folder, at Documents\KiCAD\Libraries.
