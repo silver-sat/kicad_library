@@ -1,2 +1,5 @@
 # kicad_library
-KiCAD library of SilverSat-specific parts.
+
+# Shared libraries for SilverSat-specific parts
+
+This repository contains custom Ki-CAD symbols and footprints that we've developed as part of the SilverSat design. 
