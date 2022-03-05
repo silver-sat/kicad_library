@@ -235,11 +235,34 @@ X Vcc 5 250 -200 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Library_no_delete_MAX3100
+# SilverSat_symbols_BD2268G-MGTR-SamacSys_Parts2
 #
-DEF Library_no_delete_MAX3100 U 0 40 Y Y 1 F N
+DEF SilverSat_symbols_BD2268G-MGTR-SamacSys_Parts2 IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "SilverSat_symbols_BD2268G-MGTR-SamacSys_Parts2" 850 200 50 H V L CNN
+F2 "SOT95P280X125-5N" 850 100 50 H I L CNN
+F3 "https://www.mouser.tw/datasheet/2/348/bd2268g-m-e-1874307.pdf" 850 0 50 H I L CNN
+F4 "Power Switch ICs - Power Distribution LOW ON-RESISTANCE N-CHANNEL" 850 -100 50 H I L CNN "Description"
+F5 "1.25" 850 -200 50 H I L CNN "Height"
+F6 "ROHM Semiconductor" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "BD2268G-MGTR" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "755-BD2268G-MGTR" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/BD2268G-MGTR?qs=WHeKGGBt0W9iXCIsqOoAOg%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+X IN 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X EN 3 0 -200 200 R 50 50 0 0 P
+X ~OC 4 1000 0 200 L 50 50 0 0 P
+X OUT 5 1000 -100 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SilverSat_symbols_MAX3100
+#
+DEF SilverSat_symbols_MAX3100 U 0 40 Y Y 1 F N
 F0 "U" 0 0 50 H V C CNN
-F1 "Library_no_delete_MAX3100" 0 0 50 H V C CNN
+F1 "SilverSat_symbols_MAX3100" 0 0 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -263,11 +286,11 @@ X *IRQ ~ -300 -900 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Library_no_delete_RaspberryPiZero(v1.1)
+# SilverSat_symbols_RaspberryPiZero(v1.1)
 #
-DEF Library_no_delete_RaspberryPiZero(v1.1) U 0 40 Y Y 1 F N
+DEF SilverSat_symbols_RaspberryPiZero(v1.1) U 0 40 Y Y 1 F N
 F0 "U" 0 0 50 H V C CNN
-F1 "Library_no_delete_RaspberryPiZero(v1.1)" 0 0 50 H V C CNN
+F1 "SilverSat_symbols_RaspberryPiZero(v1.1)" 0 0 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -315,11 +338,11 @@ X GND 9 -600 -800 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Library_no_delete_SN65HVD70D
+# SilverSat_symbols_SN65HVD70D
 #
-DEF Library_no_delete_SN65HVD70D U 0 40 Y Y 1 F N
+DEF SilverSat_symbols_SN65HVD70D U 0 40 Y Y 1 F N
 F0 "U" 0 0 50 H V C CNN
-F1 "Library_no_delete_SN65HVD70D" 0 0 50 H V C CNN
+F1 "SilverSat_symbols_SN65HVD70D" 0 0 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -341,11 +364,11 @@ X Y 9 500 -1000 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Library_no_delete_SN74CB3Q3306A
+# SilverSat_symbols_SN74CB3Q3306A
 #
-DEF Library_no_delete_SN74CB3Q3306A U 0 40 Y Y 1 F N
+DEF SilverSat_symbols_SN74CB3Q3306A U 0 40 Y Y 1 F N
 F0 "U" 0 0 50 H V C CNN
-F1 "Library_no_delete_SN74CB3Q3306A" 0 0 50 H V C CNN
+F1 "SilverSat_symbols_SN74CB3Q3306A" 0 0 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -361,11 +384,11 @@ X Vcc 8 400 -250 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Library_no_delete_uCamIII
+# SilverSat_symbols_uCamIII
 #
-DEF Library_no_delete_uCamIII U 0 40 Y Y 1 F N
+DEF SilverSat_symbols_uCamIII U 0 40 Y Y 1 F N
 F0 "U" -50 50 50 H V C CNN
-F1 "Library_no_delete_uCamIII" 100 50 50 H V C CNN
+F1 "SilverSat_symbols_uCamIII" 100 50 50 H V C CNN
 F2 "" -50 50 50 H I C CNN
 F3 "" -50 50 50 H I C CNN
 DRAW

@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Library_no~delete:74LVC1G07MDCKREPG4 U2
+L Library_no_delete:74LVC1G07MDCKREPG4 U2
 U 1 1 611928FF
 P 4850 5700
 F 0 "U2" H 4750 5765 50  0000 C CNN
@@ -22,17 +22,6 @@ F 1 "74LVC1G07MDCKREPG4" H 4750 5674 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 4950 5650 50  0001 C CNN
 F 3 "" H 4950 5650 50  0001 C CNN
 	1    4850 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Library_no~delete:SN74CB3Q3306A U6
-U 1 1 6119A196
-P 8350 2100
-F 0 "U6" H 8400 2115 50  0000 C CNN
-F 1 "SN74CB3Q3306A" H 8400 2024 50  0000 C CNN
-F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 8350 2100 50  0001 C CNN
-F 3 "" H 8350 2100 50  0001 C CNN
-	1    8350 2100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -47,7 +36,7 @@ F 3 "~" H 6600 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Library_no~delete:74LVC1G07MDCKREPG4 U3
+L Library_no_delete:74LVC1G07MDCKREPG4 U3
 U 1 1 611A99A2
 P 4850 6550
 F 0 "U3" H 4750 6615 50  0000 C CNN
@@ -58,18 +47,7 @@ F 3 "" H 4950 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Library_no~delete:74LVC1G07MDCKREPG4 U4
-U 1 1 611AA178
-P 4850 7500
-F 0 "U4" H 4750 7565 50  0000 C CNN
-F 1 "74LVC1G07MDCKREPG4" H 4750 7474 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 4950 7450 50  0001 C CNN
-F 3 "" H 4950 7450 50  0001 C CNN
-	1    4850 7500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Library_no~delete:RaspberryPiZero(v1.1) U1
+L SilverSat_symbols:RaspberryPiZero(v1.1) U1
 U 1 1 611B5E71
 P 4700 2250
 F 0 "U1" H 4850 2315 50  0000 C CNN
@@ -429,8 +407,6 @@ F 3 "" H 12600 8550 50  0001 C CNN
 	1    12600 8550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12600 8200 12600 8500
 Connection ~ 12600 8200
 Wire Wire Line
 	12500 8200 12600 8200
@@ -558,7 +534,7 @@ F 3 "" H 12600 2400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Library_no~delete:SN65HVD70D U8
+L SilverSat_symbols:SN65HVD70D U8
 U 1 1 611952B2
 P 12100 2650
 F 0 "U8" H 12200 2665 50  0000 C CNN
@@ -688,7 +664,7 @@ Connection ~ 8900 5250
 Wire Wire Line
 	8900 5250 8900 5400
 $Comp
-L Library_no~delete:uCamIII U7
+L SilverSat_symbols:uCamIII U7
 U 1 1 611993D1
 P 9900 5300
 F 0 "U7" H 10578 4926 50  0000 L CNN
@@ -714,16 +690,14 @@ $EndComp
 $Comp
 L power:GND #PWR0128
 U 1 1 611B00E9
-P 10450 5250
-F 0 "#PWR0128" H 10450 5000 50  0001 C CNN
-F 1 "GND" H 10455 5077 50  0000 C CNN
-F 2 "" H 10450 5250 50  0001 C CNN
-F 3 "" H 10450 5250 50  0001 C CNN
-	1    10450 5250
-	1    0    0    1   
+P 10700 7250
+F 0 "#PWR0128" H 10700 7000 50  0001 C CNN
+F 1 "GND" H 10705 7077 50  0000 C CNN
+F 2 "" H 10700 7250 50  0001 C CNN
+F 3 "" H 10700 7250 50  0001 C CNN
+	1    10700 7250
+	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	10450 5250 10450 5300
 Wire Wire Line
 	8800 4250 10150 4250
 Wire Wire Line
@@ -735,7 +709,7 @@ Wire Wire Line
 Wire Wire Line
 	10600 3500 10600 5300
 $Comp
-L Library_no~delete:MAX3100 U5
+L SilverSat_symbols:MAX3100 U5
 U 1 1 61197F46
 P 8300 3800
 F 0 "U5" H 8400 3915 50  0000 C CNN
@@ -789,11 +763,7 @@ Connection ~ 9000 3150
 Wire Wire Line
 	9000 3150 9000 3350
 Wire Wire Line
-	11050 8300 12000 8300
-Wire Wire Line
-	11800 3050 6350 3050
-Wire Wire Line
-	11050 2650 11050 8300
+	11050 2650 11050 8100
 Wire Wire Line
 	11200 1850 11200 8000
 Wire Wire Line
@@ -877,8 +847,6 @@ F 3 "" H 4100 3650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2800 4800 2750 4800
-Wire Wire Line
-	5600 2900 6250 2900
 Wire Wire Line
 	5600 3500 10600 3500
 Wire Wire Line
@@ -1146,9 +1114,6 @@ Wire Wire Line
 Wire Wire Line
 	3050 1600 3050 2750
 Wire Wire Line
-	5650 800  5650 2450
-Connection ~ 5650 2450
-Wire Wire Line
 	4050 900  4050 2450
 Connection ~ 4050 2450
 Wire Wire Line
@@ -1163,23 +1128,6 @@ Wire Wire Line
 Connection ~ 5950 5150
 Wire Wire Line
 	5950 5150 5600 5150
-Wire Wire Line
-	6250 1300 6250 2900
-Connection ~ 6250 2900
-Wire Wire Line
-	6250 2900 7400 2900
-Wire Wire Line
-	6350 1400 6350 3050
-Connection ~ 6350 3050
-Wire Wire Line
-	6350 3050 5600 3050
-Wire Wire Line
-	14050 1500 14050 8500
-Wire Wire Line
-	14050 8500 12600 8500
-Connection ~ 12600 8500
-Wire Wire Line
-	12600 8500 12600 8550
 $Comp
 L Connector:Conn_01x08_Male J1
 U 1 1 61BCF762
@@ -1192,38 +1140,13 @@ F 3 "~" H 14300 1100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	14100 900  4050 900 
-Wire Wire Line
-	5650 800  14100 800 
-Wire Wire Line
 	5800 1000 14100 1000
 Wire Wire Line
 	5950 1100 14100 1100
 Wire Wire Line
-	6250 1300 14100 1300
-Wire Wire Line
-	6350 1400 14100 1400
-Wire Wire Line
-	14050 1500 14100 1500
-Wire Wire Line
 	8050 2500 7100 2500
 Wire Wire Line
-	5650 2450 6500 2450
-Wire Wire Line
-	6500 2450 6500 5400
-Wire Wire Line
-	6500 5400 8500 5400
-Wire Wire Line
-	8500 5400 8500 7100
-Wire Wire Line
-	8500 7100 11950 7100
-Wire Wire Line
-	11950 7100 11950 7200
-Wire Wire Line
 	11950 7200 12000 7200
-Connection ~ 11950 7100
-Wire Wire Line
-	11950 7100 12000 7100
 Wire Wire Line
 	9300 3950 9300 3700
 Wire Wire Line
@@ -1278,4 +1201,116 @@ Wire Wire Line
 	6150 5300 6150 1200
 Wire Wire Line
 	6150 1200 14100 1200
+$Comp
+L SilverSat_symbols:BD2268G-MGTR-SamacSys_Parts2 IC?
+U 1 1 61EC401B
+P 10600 7150
+F 0 "IC?" H 11100 7415 50  0000 C CNN
+F 1 "BD2268G-MGTR-SamacSys_Parts2" H 11100 7324 50  0000 C CNN
+F 2 "SOT95P280X125-5N" H 11450 7250 50  0001 L CNN
+F 3 "https://www.mouser.tw/datasheet/2/348/bd2268g-m-e-1874307.pdf" H 11450 7150 50  0001 L CNN
+F 4 "Power Switch ICs - Power Distribution LOW ON-RESISTANCE N-CHANNEL" H 11450 7050 50  0001 L CNN "Description"
+F 5 "1.25" H 11450 6950 50  0001 L CNN "Height"
+F 6 "ROHM Semiconductor" H 11450 6850 50  0001 L CNN "Manufacturer_Name"
+F 7 "BD2268G-MGTR" H 11450 6750 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "755-BD2268G-MGTR" H 11450 6650 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/BD2268G-MGTR?qs=WHeKGGBt0W9iXCIsqOoAOg%3D%3D" H 11450 6550 50  0001 L CNN "Mouser Price/Stock"
+	1    10600 7150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10700 7250 10600 7250
+$Comp
+L power:GND #PWR?
+U 1 1 61FF0319
+P 10450 5200
+F 0 "#PWR?" H 10450 4950 50  0001 C CNN
+F 1 "GND" H 10455 5027 50  0000 C CNN
+F 2 "" H 10450 5200 50  0001 C CNN
+F 3 "" H 10450 5200 50  0001 C CNN
+	1    10450 5200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	10450 5200 10450 5300
+$Comp
+L Library_no_delete:74LVC1G07MDCKREPG4 U?
+U 1 1 61F2C8B7
+P 4850 7500
+F 0 "U?" H 4750 7565 50  0000 C CNN
+F 1 "74LVC1G07MDCKREPG4" H 4750 7474 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 4950 7450 50  0001 C CNN
+F 3 "" H 4950 7450 50  0001 C CNN
+	1    4850 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SilverSat_symbols:SN74CB3Q3306A U6
+U 1 1 6119A196
+P 8350 2100
+F 0 "U6" H 8400 2115 50  0000 C CNN
+F 1 "SN74CB3Q3306A" H 8400 2024 50  0000 C CNN
+F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 8350 2100 50  0001 C CNN
+F 3 "" H 8350 2100 50  0001 C CNN
+	1    8350 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12000 8100 11050 8100
+Wire Wire Line
+	10600 7150 11900 7150
+Wire Wire Line
+	11900 7150 11900 8300
+Wire Wire Line
+	11900 8300 12000 8300
+Text GLabel 8000 7250 0    50   Input ~ 0
+BCM_14_(TxD)
+Text GLabel 8000 7450 0    50   Input ~ 0
+BCM_15_(RxD)
+Text GLabel 8000 7600 0    50   Input ~ 0
+Tx
+Text GLabel 8000 7750 0    50   Input ~ 0
+Rx
+Wire Wire Line
+	12600 8200 12600 8550
+Wire Wire Line
+	13700 1500 14100 1500
+Text GLabel 13700 1300 0    50   Input ~ 0
+BCM_14_(TxD)
+Text GLabel 13700 1400 0    50   Input ~ 0
+BCM_15_(RxD)
+Wire Wire Line
+	5600 2900 7400 2900
+Wire Wire Line
+	5600 3050 11800 3050
+Wire Wire Line
+	13700 1300 14100 1300
+Wire Wire Line
+	13700 1400 14100 1400
+$Comp
+L power:GND #PWR?
+U 1 1 62346D07
+P 13700 1500
+F 0 "#PWR?" H 13700 1250 50  0001 C CNN
+F 1 "GND" H 13705 1327 50  0000 C CNN
+F 2 "" H 13700 1500 50  0001 C CNN
+F 3 "" H 13700 1500 50  0001 C CNN
+	1    13700 1500
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	13600 800  14100 800 
+$Comp
+L power:+5V #PWR?
+U 1 1 62321791
+P 13600 800
+F 0 "#PWR?" H 13600 650 50  0001 C CNN
+F 1 "+5V" H 13615 973 50  0000 C CNN
+F 2 "" H 13600 800 50  0001 C CNN
+F 3 "" H 13600 800 50  0001 C CNN
+	1    13600 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14100 900  4050 900 
 $EndSCHEMATC
