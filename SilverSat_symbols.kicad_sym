@@ -637,7 +637,7 @@
     )
   )
   (symbol "TG2016SMN" (in_bom yes) (on_board yes)
-    (property "Reference" "U" (id 0) (at 5.08 11.43 0)
+    (property "Reference" "X" (id 0) (at 5.08 11.43 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TG2016SMN" (id 1) (at 6.35 8.89 0)
