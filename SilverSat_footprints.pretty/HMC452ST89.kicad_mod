@@ -20,6 +20,32 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 6ab04a38-b00f-4022-8498-6694ffbbf525)
   )
+  (fp_line (start -0.484643 -0.93526) (end -0.749875 -0.65877) (layer "F.Cu") (width 0.127) (tstamp 238786b0-eb0f-4595-bc9b-f1477c03da1d))
+  (fp_line (start 1.661818 -0.93526) (end -0.484643 -0.93526) (layer "F.Cu") (width 0.127) (tstamp 2406535c-c4aa-4ff5-a4a2-f5988bfb3fbd))
+  (fp_line (start 1.710638 -0.93026) (end 1.661818 -0.93526) (layer "F.Cu") (width 0.127) (tstamp 2e326676-4de6-4690-b30e-b3bc69d4d402))
+  (fp_line (start -2.221231 0.2286) (end -1.0922 0.2286) (layer "F.Cu") (width 0.127) (tstamp 356cc21f-a7cb-4f39-97d9-08035d40d0eb))
+  (fp_line (start -0.749875 -0.65877) (end -1.0922 -0.29989) (layer "F.Cu") (width 0.127) (tstamp 58b4b641-460d-46d8-a11f-89a60ff40ac0))
+  (fp_line (start -1.0922 0.2286) (end -0.484662 0.86186) (layer "F.Cu") (width 0.127) (tstamp 7d428db2-73bd-492d-a21d-4256a18ad873))
+  (fp_line (start 1.910882 0.64825) (end 1.915482 0.59745) (layer "F.Cu") (width 0.127) (tstamp 945ca90e-9954-422c-8674-fb6661296213))
+  (fp_line (start -2.221231 -0.29989) (end -2.221231 0.2286) (layer "F.Cu") (width 0.127) (tstamp 978eb3ff-fab8-4160-88ec-4101e4735b8d))
+  (fp_line (start -1.0922 -0.29989) (end -2.221231 -0.29989) (layer "F.Cu") (width 0.127) (tstamp 9ac9b675-ad8f-49a5-a072-686f6dd38fc1))
+  (fp_line (start 1.661797 0.86186) (end 1.710627 0.85686) (layer "F.Cu") (width 0.127) (tstamp 9bd1c052-2ab9-4068-8c98-3f5d13040cbc))
+  (fp_line (start -0.484662 0.86186) (end 1.661797 0.86186) (layer "F.Cu") (width 0.127) (tstamp d86cf6b0-7cfa-4084-bbc2-88cfbaf1c6ed))
+  (fp_line (start 1.915482 0.59745) (end 1.915482 -0.6708) (layer "F.Cu") (width 0.127) (tstamp e8dee63d-1102-4c61-aa8e-f9268949d816))
+  (fp_poly (pts
+      (xy 1.9304 0.8636)
+      (xy -0.4826 0.8636)
+      (xy -1.0922 0.254)
+      (xy -1.0922 -0.3302)
+      (xy -0.4826 -0.9398)
+      (xy 1.9304 -0.9398)
+    ) (layer "F.Cu") (width 0.127) (fill solid) (tstamp b466f0f9-26ba-47dc-a2fc-2728322503e1))
+  (fp_curve (pts (xy 1.803865 0.816516) (xy 1.831066 0.798546) (xy 1.854239 0.773349) (xy 1.871119 0.745214)) (layer "F.Cu") (width 0.127) (tstamp 19e305fb-6fef-477e-91a8-15de32901cd1))
+  (fp_curve (pts (xy 1.915482 -0.6708) (xy 1.909903 -0.710908) (xy 1.904324 -0.751016) (xy 1.888392 -0.787987)) (layer "F.Cu") (width 0.127) (tstamp 29082064-a56b-4c97-8e01-9fef2771cf63))
+  (fp_curve (pts (xy 1.816402 -0.880113) (xy 1.785133 -0.903352) (xy 1.747886 -0.916806) (xy 1.710638 -0.93026)) (layer "F.Cu") (width 0.127) (tstamp 3ed1a05e-7f0a-4129-8af0-ae2b51326a2f))
+  (fp_curve (pts (xy 1.710627 0.85686) (xy 1.743149 0.846) (xy 1.775671 0.83514) (xy 1.803865 0.816516)) (layer "F.Cu") (width 0.127) (tstamp 5600f25b-ef78-4ae3-add8-4e335f098514))
+  (fp_curve (pts (xy 1.888392 -0.787987) (xy 1.872905 -0.823926) (xy 1.847636 -0.856901) (xy 1.816402 -0.880113)) (layer "F.Cu") (width 0.127) (tstamp ed8f954e-7c70-41a9-a2e3-9563370f028b))
+  (fp_curve (pts (xy 1.871119 0.745214) (xy 1.889169 0.715132) (xy 1.900025 0.681691) (xy 1.910882 0.64825)) (layer "F.Cu") (width 0.127) (tstamp eeee50eb-14fc-4df4-a9b5-a31f955615da))
   (fp_line (start 1.5461 1.0246) (end 1.5461 2.3346) (layer "F.SilkS") (width 0.12) (tstamp 7918b303-e876-49dd-ba3a-a77b7482da10))
   (fp_line (start -2.3139 -2.1554) (end -1.1739 -2.1554) (layer "F.SilkS") (width 0.12) (tstamp 80fbeaf2-677c-493a-97c5-ec444bf3b4b8))
   (fp_line (start 1.5461 2.3346) (end -1.1739 2.3346) (layer "F.SilkS") (width 0.12) (tstamp d1072492-2466-40fe-b3e8-472bce53bd28))
@@ -40,7 +66,28 @@
   (pad "2" smd rect (at -1.6764 -0.0254) (size 1.1938 0.4826) (layers "F.Cu" "F.Paste" "F.Mask")
     (zone_connect 2) (tstamp bc94f10d-0623-461a-ac98-d9d2cc60129d))
   (pad "3" smd rect (at -1.6764 1.4986) (size 1.1938 0.5842) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ccda9adb-a334-4299-b137-6c290f5f5f92))
-  (pad "4" smd roundrect (at 0.635 0) (size 3.429 1.8288) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp bf8101b6-72be-4ed1-8965-35d87a73cfc2))
+  (group "" (id 48bfc696-2ce7-49da-923c-705e24383238)
+    (members
+      19e305fb-6fef-477e-91a8-15de32901cd1
+      238786b0-eb0f-4595-bc9b-f1477c03da1d
+      2406535c-c4aa-4ff5-a4a2-f5988bfb3fbd
+      29082064-a56b-4c97-8e01-9fef2771cf63
+      2e326676-4de6-4690-b30e-b3bc69d4d402
+      356cc21f-a7cb-4f39-97d9-08035d40d0eb
+      3ed1a05e-7f0a-4129-8af0-ae2b51326a2f
+      5600f25b-ef78-4ae3-add8-4e335f098514
+      58b4b641-460d-46d8-a11f-89a60ff40ac0
+      7d428db2-73bd-492d-a21d-4256a18ad873
+      945ca90e-9954-422c-8674-fb6661296213
+      978eb3ff-fab8-4160-88ec-4101e4735b8d
+      9ac9b675-ad8f-49a5-a072-686f6dd38fc1
+      9bd1c052-2ab9-4068-8c98-3f5d13040cbc
+      d86cf6b0-7cfa-4084-bbc2-88cfbaf1c6ed
+      e8dee63d-1102-4c61-aa8e-f9268949d816
+      ed8f954e-7c70-41a9-a2e3-9563370f028b
+      eeee50eb-14fc-4df4-a9b5-a31f955615da
+    )
+  )
   (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-89-3.wrl"
     (offset (xyz 0 0.03048 0))
     (scale (xyz 1 1 1))
